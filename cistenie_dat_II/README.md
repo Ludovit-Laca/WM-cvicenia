@@ -1,3 +1,5 @@
+## Čistenie dát II
+
 Preskúmajte logovací súbor po očistení od nepotrebných dát a zvážte odstránenie ďalších záznamov.
 Odovzdajte zdrojový kód programu + očistený logovací súbor (v jednom zip).
 
