@@ -1,3 +1,5 @@
+## Čistenie dát I
+
 Vytvorte program na čistenie dát od nepotrebných dát:
 
 - upravte dátový súbor identifikovaním premenných (IP, Cookie, user, DTime, RequestMethod, URL, StatusCode, Referrer, Agent),
