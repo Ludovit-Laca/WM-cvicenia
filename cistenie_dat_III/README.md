@@ -1,3 +1,5 @@
+## Čistenie dát III
+
 Čistenie dát od robotov vyhľadávacích služieb:
 
 - identifikujte robotov na základe prístupu k súboru robots.txt (URL) - získate IP adresy robotov.
