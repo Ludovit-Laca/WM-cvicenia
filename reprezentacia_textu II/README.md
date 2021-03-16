@@ -24,7 +24,7 @@ stop_words = set(stopwords.words('english'))
 
 Postup dosiahnutia výsledkov:
 
-načítajte texty do Pythonu;
-rozdeľte vety na slová pomocou príkazu: wordsList = nltk.word_tokenize(word)
-inicializovať lematizátor: lemmatizer = WordNetLemmatizer();
-získajte základ slova (lemmu) pre dané slová: lemmatizer.lemmatize(word);
+- načítajte texty do Pythonu;
+- rozdeľte vety na slová pomocou príkazu: wordsList = nltk.word_tokenize(word)
+- inicializovať lematizátor: lemmatizer = WordNetLemmatizer();
+- získajte základ slova (lemmu) pre dané slová: lemmatizer.lemmatize(word);
