@@ -16,12 +16,16 @@ Obsah predmetu:
 10. Využitie výsledkov
 
  
-#### Literatúra:
+### Zadanie projektu:
 
-Munk, M. - Kapusta, J. 2014. Web Usage Mining: príprava a modelovanie dát. Nitra : UKF, 2014. 136 s. ISBN 978-80-558-0692-1.
+Na priloženom logovacom súbore zopakujte postup, ktorý ste sa naučili za celý semester:
 
-Munk, M. 2011. Počítačová analýza dát. Nitra : UKF, 2011. 361 s. ISBN 978-80-8094-895-5.
-
-Berka, P. 2003. Dobývání znalostí z databází. Praha : Academia, 2003. ISBN 80-200-1062-9.
-
-Liu, B. 2007. Web data mining: Exploring hyperlinks, contents and usage data. Springer, 2007. ISBN 978-3-540-37881-5.
+* Očistite dátový súbor od nepotrebných údajov (RequestMethod/Version, StatusCode, URL)
+* Očistite dátový súbor od prístupov robotov vyhľadávacích služieb
+* Identifikujte robotov na základe prístupu k súboru robots.txt (URL)
+* Identifikujte robotov na základe poľa User-Agent (Agent)
+* Vyselektujte z dátového súboru len vaše skúmané obdobie a vytvorte premennú UnixTime
+* Identifikujte používateľov na základe IP adresy a poľa User-Agent
+* Vytvorte premennú Length na základe User_ID a 60 min. STT.
+* Identifikujte sedenia na základe metódy Reference Length (použite hodnotu pre podiel navigačných stránok: 40%)
+* Doplňte chýbajúce požiadavky do identifikovaných sedení (dopĺňanie ciest)
